@@ -8,12 +8,13 @@ export default function Home() {
         <h1>خلّيك على القرص</h1>
       </div>
 
-      <img
-        src="lasseq_logo.gif" // Replace with your logo's path
-        alt="Lasseq Tech Logo" // Descriptive alternative text
-        width={200} // Adjust width as needed
-        height={100} // Adjust height as needed
-        className="logo" // Optional class for styling
+      <Image
+        src="/lasseq_logo.gif" 
+        alt="Lasseq Tech Logo"
+        width={400} 
+        height={300} 
+        className="logo" 
+        unoptimized
       />
 
       <div className="bottom-text">
