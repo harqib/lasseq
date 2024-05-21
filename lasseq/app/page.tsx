@@ -9,7 +9,7 @@ export default function Home() {
       </div>
 
       <Image
-        src="/lasseq_logo.gif" 
+        src="${basePath}/lasseq_logo.gif" 
         alt="Lasseq Tech Logo"
         width={400} 
         height={300} 
