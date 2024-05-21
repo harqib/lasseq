@@ -53,7 +53,7 @@ jobs:
         with:
           node-version: "20"
           cache: npm
-          cache-dependency-path: lasseq/lasseq/package-lock.json
+          cache-dependency-path: lasseq/lasseq/lasseq/package-lock.json
 
 
       - name: Install dependencies
