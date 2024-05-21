@@ -8,13 +8,12 @@ export default function Home() {
         <h1>خلّيك على القرص</h1>
       </div>
 
-      <Image
-        src="${basePath}/lasseq_logo.gif" 
+      <img
+        src="lasseq_logo.gif" 
         alt="Lasseq Tech Logo"
         width={400} 
         height={300} 
         className="logo" 
-        unoptimized
       />
 
       <div className="bottom-text">
