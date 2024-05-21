@@ -81,8 +81,8 @@ jobs:
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
-        with:
-          path: ./lasseq/lasseq/out
+        # with:
+        #   path: ./lasseq/lasseq/out
 
   # Deployment job
   deploy:
