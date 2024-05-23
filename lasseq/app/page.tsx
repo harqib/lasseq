@@ -8,13 +8,13 @@ export default function Home() {
   return (
     <main className="container flex min-h-screen flex-col items-center justify-between p-10">
       <div className="social-icons">
-        <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.linkedin.com/company/lasseq-tech/about/?viewAsMember=true" target="_blank" rel="noopener noreferrer">
           <FontAwesomeIcon icon={faLinkedin} />
         </a>
-        <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.instagram.com/lasseq.tech/?next=%2F" target="_blank" rel="noopener noreferrer">
           <FontAwesomeIcon icon={faInstagram} />
         </a>
-        <a href="mailto:your-email@example.com">
+        <a href="lasseq.contact@gmail.com">
           <FontAwesomeIcon icon={faEnvelope} />
         </a>
       </div>

@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities; 
 
-/* Your custom CSS */
+/* your custom css */
 :root {
   --foreground-rgb: 0, 0, 0;
   /* Other custom properties */
@@ -74,6 +74,6 @@ body {
 }
 
 .social-icons a {
-  color: #000; /* Adjust color as needed */
+  color: #EA4335; /* Adjust color as needed */
   font-size: 24px; /* Adjust size as needed */
 }
