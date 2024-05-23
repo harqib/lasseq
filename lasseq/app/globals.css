@@ -5,13 +5,11 @@
 /* your custom css */
 :root {
   --foreground-rgb: 0, 0, 0;
-  /* Other custom properties */
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
-    /* Other custom properties for dark mode */
   }
 }
 
@@ -19,8 +17,8 @@ body {
   color: rgb(var(--foreground-rgb));
   background-image: url('./lasseq_bg.png');
   background-size: cover;
-  background-position: center; /* Center the background horizontally */
-  background-repeat: no-repeat; /* Ensure the background doesn't repeat */
+  background-position: center;
+  background-repeat: no-repeat; 
   display: flex;
   justify-content: center; 
   align-items: center; 
@@ -44,7 +42,7 @@ body {
   font-style: normal;
   font-size: 1.5em;
   font-weight:400;
-  color: #EA4335;
+  color: #d71100;
   text-shadow: 2px 2px 5px rgba(74, 74, 74, 0.242);
 }
 
@@ -58,7 +56,7 @@ body {
   font-style: normal;
   font-size: 1.5em;
   font-weight:500;
-  color: #EA4335;
+  color: #d71100;
   text-shadow: 2px 2px 5px rgba(74, 74, 74, 0.242);
 
 }
@@ -70,10 +68,10 @@ body {
   transform: translateY(-50%);
   display: flex;
   flex-direction: column;
-  gap: 20px;
 }
 
 .social-icons a {
-  color: #EA4335; /* Adjust color as needed */
-  font-size: 24px; /* Adjust size as needed */
+  color: #d71100; 
+  font-size: 20px; 
+  text-shadow: 2px 2px 5px rgba(74, 74, 74, 0.242);
 }
