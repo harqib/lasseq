@@ -15,7 +15,7 @@ export default function Home() {
           <FontAwesomeIcon icon={faInstagram} />
         </a>
         <a href="lasseq.contact@gmail.com">
-          <i className="fa-light fa-envelope"></i>
+          <FontAwesomeIcon icon={faEnvelope} />
         </a>
       </div>
       <div className="top-text">
