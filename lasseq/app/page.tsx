@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <main className="container flex min-h-screen flex-col items-center justify-between p-10">
       <div className="social-icons">
-        <a href={process.env.NEXT_PUBLIC_LINKEDIN_URL} target="_blank" rel="noopener noreferrer">
+        <a href={`redirect:${process.env.NEXT_PUBLIC_LINKEDIN_URL}`} target="_blank" rel="noopener noreferrer">
           <FontAwesomeIcon icon={faLinkedin} />
         </a>
         <a href={process.env.NEXT_PUBLIC_INSTAGRAM_URL} target="_blank" rel="noopener noreferrer">
