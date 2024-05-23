@@ -14,7 +14,7 @@ export default function Home() {
         <a href={process.env.NEXT_PUBLIC_INSTAGRAM_URL} target="_blank" rel="noopener noreferrer">
           <FontAwesomeIcon icon={faInstagram} />
         </a>
-        <a href={process.env.NEXT_PUBLIC_EMAIL}>
+        <a href={`mailto:${process.env.NEXT_PUBLIC_EMAIL}`}>
           <FontAwesomeIcon icon={faEnvelope} />
         </a>
       </div>
