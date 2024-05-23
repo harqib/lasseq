@@ -1,6 +1,6 @@
 @tailwind base;
 @tailwind components;
-@tailwind utilities;
+@tailwind utilities; 
 
 /* Your custom CSS */
 :root {
@@ -61,4 +61,19 @@ body {
   color: #EA4335;
   text-shadow: 2px 2px 5px rgba(74, 74, 74, 0.242);
 
+}
+
+.social-icons {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.social-icons a {
+  color: #000; /* Adjust color as needed */
+  font-size: 24px; /* Adjust size as needed */
 }
