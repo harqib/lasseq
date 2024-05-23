@@ -1,9 +1,23 @@
 import Image from "next/image";
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLinkedin, faInstagram } from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+
 export default function Home() {
   return (
     <main className="container flex min-h-screen flex-col items-center justify-between p-10">
-      {/* <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex"> */}
+      <div className="social-icons">
+        <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
+          <FontAwesomeIcon icon={faLinkedin} />
+        </a>
+        <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+          <FontAwesomeIcon icon={faInstagram} />
+        </a>
+        <a href="mailto:your-email@example.com">
+          <FontAwesomeIcon icon={faEnvelope} />
+        </a>
+      </div>
       <div className="top-text">
         <h1>خلّيك على القرص</h1>
       </div>
